@@ -1,0 +1,18 @@
+segun 10 hacer {
+  caso 1 : {
+    imprimir("Soy 1");;
+    salir;
+  }
+  caso 9:{
+    imprimir("Soy 9");
+    salir;
+  }
+  caso 10: {
+    imprimir("Soy 10");
+    salir;
+  }
+  defecto: {
+    imprimir("No estoy");
+  }
+}
+finsegun;

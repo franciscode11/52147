@@ -1,0 +1,17 @@
+segun "messi" hacer {
+  caso "maradona" : {
+    imprimir("Soy maradona");
+    salir;
+  }
+  caso "ronaldo":{
+    imprimir("Soy ronaldo");
+  }
+  caso "messi": {
+    imprimir("Soy messi");
+    salir;
+  }
+  defecto: {
+    imprimir("No estoy");
+  }
+}
+finsegun;
